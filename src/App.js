@@ -10,6 +10,7 @@ function randomColor() {
 
 function App() {
   const [name, setName] = useState(undefined);
+  // eslint-disable-next-line no-unused-vars
   const [color, _] = useState(randomColor());
   const title = useMemo(() => {
     let _title = "Ines Chat App";

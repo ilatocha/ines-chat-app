@@ -10,7 +10,7 @@ function MessageBox({ placeholder, hidden, onMessage }) {
   }, [message, setMessage, onMessage]);
 
   const handleEnter = useCallback((event) => {
-    if(event.keyCode == 13){
+    if(event.keyCode === 13){
       handleChange();
    }
   }, [handleChange]);

@@ -27,7 +27,7 @@ function ChatMessage({id, name, showName, message, color, leftAlign}) {
       );
     }
     return "";
-  },[name, leftAlign, showName]);
+  },[name, showName, justifyContent]);
 
   return (
     <Box 
